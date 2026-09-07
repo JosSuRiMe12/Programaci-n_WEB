@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proyecto introductorio para aprender la estructura y las etiquetas principales de HTML.">
+   <meta name="author" content="JSRM">
+
+    <!-- Texto que aparece en la pestaña del navegador-->
+    <title>Mi primer proyecto HTML</title>
+</head>
+
+<body id="inicio">
+
+        <!--Encabezado de la pagina-->
+    <header>
+        <h1>Mi primer proyecto HTML</h1>
+        <p>Un sitio para practiicar la estructura y las eqtiquetas principales de HTML 5.</p>
+
+            <!--Menú con enlaces hacia secciones de esta mmisma página-->
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="#acerca-de">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#horarios">Horario</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Contenido principal e inicio de la página-->
+    <main>
+        <section id="acerca-de">
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAdHzhu7JgRUcYYXYKXVe-MYrOZ5FNZcaEYTcTgBO9iQ&s" alt="JSRM" width="300px">
+                <figcaption>Alumnos de Programación WEB</figcaption>
+            </figure>
+            <P>Mi nombre es <strong>Jocellyn</strong> y actualmente estoy cursando la materia de Programación WEB con <abbr title="HyperTextMarkupLanguage">HTML</abbr></P>
+
+            <P>Me interesa especialmente <em>la craeción de contenido y experiencias digitales.</em> Y quiero aprender a desarrollar sitios accesibles y bien estructurados</P>
+        </section>
+        <hr>
+
+        <section id="habilidades">
+            <h2>Habilidades e intereses</h2>
+
+            <h3>Mis intereses</h3>
+            <ul>
+                <li>Jugar videojuegos</li>
+                <li>Leer manga</li>
+                <li>Cocinar postres</li>
+                <li>Ver películas de terror</li>
+            </ul>
+
+            <h3>Mis metas de aprendizaje</h3>
+            <ol>
+                <li>Comprender la estructura de HTML</li>
+                <li>Aprender a modificar la apariencia con CS5</li>
+                <li>Aprender a programar en PHP</li>
+                <li>Conectar mi página con una base de datos(MySQL)</li>
+            </ol>
+        </section>
+        <hr>
+
+        <section id="proyectos">
+            <h2>Mis proyectos</h2>
+            <article>
+                <h3>Página personal</h3>
+                <p>En este proyecto presentaré información sobre mis intereses, habilidades y objetivos profesionales</p>
+                <a href="https://github.com" target="_blank">Visitar GitHub</a>
+            </article>
+
+            <article>
+                <h3>Sitio de mi tema favorito</h3>
+                <p>Crearé un sitio informativo sobre mangas, anime, videojuegos, artistas y películas de temas de mi elección.</p>
+            </article>
+        </section>
+        <hr>
+
+        <section id="horarios">
+            <h2>Horarios</h2>
+            <p>1No todos los fans de pokemon son unos enfermos, o estan lo suficientemente grandes como para ver eso (esto ultimo mayormente por el anime o porque los padres le dieron el juego solo por ver un mono animado en la caja) 2Hay otros fans de pokemon igual de enfermos con parafilias hacia otros pokemons, el de vaporeon solo es el más conocido por el copypasta</p>
+        </section>
+        <hr>
+
+        <section id="contacto">
+            <form action="">
+                <label for="">Nombre</label>
+                <input type="text" name="nambre" id="nombre">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <adress>
+            Elaborado por JSRM <br>
+            Correo: <a href="mailto:jocellynenitary@gmail.com">jocellynenitary@gmail.com</a>
+        </adress>
+        <p><a href="#inicio">HOME</a></p>
+    </footer>
+
+</body>
+</html>
