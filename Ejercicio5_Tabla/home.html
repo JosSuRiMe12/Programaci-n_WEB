@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .tabla-alumnos {
+            width: 850px;
+            margin: 0 auto;
+            border-collapse: separate;
+            border-spacing: 3px;
+            border: 2px solid #333333;
+            padding: 4px;
+            background-color: #ffffff;
+        }
+
+        .tabla-alumnos th,
+        .tabla-alumnos td {
+            border: 1px solid #666666;
+            padding: 8px 12px;
+            vertical-align: middle;
+        }
+
+        /* Encabezado */
+        .tabla-alumnos th {
+            background-color: #d9d9d9;
+            color: #000000;
+            font-weight: bold;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        /* Alineaciones de datos */
+        .col-center {
+            text-align: center;
+        }
+
+        .col-left {
+            text-align: left;
+        }
+
+        .tabla-alumnos tbody tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        /* Ancho inflexible para la celda de la foto */
+        .celda-img {
+            width: 50px;
+            text-align: center;
+        }
+
+        .celda-img img {
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Pie de página */
+        .pie-ciclo {
+            background-color: #d9d9d9;
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1>Estudiantes de Programación WEB (CUCEA)</h1>
+
+    <table class="tabla-alumnos">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Imagen</th>
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>Carrera</th>
+                <th>Promedio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- Estudiante 1 -->
+            <tr>
+                <td class="col-center">1</td>
+                <td class="celda-img">
+                    <img src="https://i.pinimg.com/736x/1e/02/51/1e0251efc46198934dfee4087b858f01.jpg" alt="50x50">
+                </td>
+             <td class="col-left">
+                    <a href="alumno1.html">Juan Perez</a>
+                <td class="col-center">20</td>
+                <td class="col-left">Ingeniería en Telemática</td>
+                <td class="col-center">85</td>
+            </tr>
+
+            <!-- Estudiante 2 -->
+            <tr>
+                <td class="col-center">2</td>
+                <td class="celda-img">
+                    <img src="https://i.pinimg.com/1200x/53/ac/3f/53ac3fc1d61ec538c4f727685b68c6f7.jpg" alt="50x50">
+                </td>
+             <td class="col-left">
+                    <a href="alumno2.html">María García</a>
+                <td class="col-center">22</td>
+                <td class="col-left">Ingeniería en Informática</td>
+                <td class="col-center">79</td>
+            </tr>
+
+            <!-- Estudiante 3 -->
+            <tr>
+                <td class="col-center">3</td>
+                <td class="celda-img">
+                    <img src="https://i.pinimg.com/736x/20/25/84/202584b4af790310a72ad0488f8a1c8a.jpg" alt="50x50">
+                </td>
+             <td class="col-left">
+                    <a href="alumno3.html">Carlos Lopez</a>
+                <td class="col-center">21</td>
+                <td class="col-left">Licenciatura en Tecnologías de la Información</td>
+                <td class="col-center">82</td>
+            </tr>
+
+            <!-- Estudiante 4 -->
+            <tr>
+                <td class="col-center">4</td>
+                <td class="celda-img">
+                    <img src="https://i.pinimg.com/736x/ec/6a/ac/ec6aac3116fbce622503c0555bd277eb.jpg" alt="50x50">
+                </td>
+             <td class="col-left">
+                    <a href="alumno4.html">Ana Martinez</a>
+                <td class="col-center">19</td>
+                <td class="col-left">Ingeniería en Mecatrónica</td>
+                <td class="col-center">90</td>
+            </tr>
+
+            <!-- Estudiante 5 -->
+            <tr>
+                <td class="col-center">5</td>
+                <td class="celda-img">
+                    <img src="https://i.pinimg.com/736x/4e/21/2c/4e212c08d39d81570bf5c04c1cfee76d.jpg" alt="50x50">
+                </td>
+                <td class="col-left">
+                    <a href="alumno5.html">Adriana Ramos</a>
+                </td>
+                <td class="col-center">22</td>
+                <td class="col-left">Ingeniería en Computación</td>
+                <td class="col-center">98</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="7" class="pie-ciclo">
+                    Ciclo escolar 2024A
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
