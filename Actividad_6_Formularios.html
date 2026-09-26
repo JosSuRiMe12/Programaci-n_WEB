@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+</head>
+<body>
+    <h1>Bienvenido al registro</h1>
+
+    <form action="" method="post">
+        <label for="nombre">Nombre Completo:</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br><br>
+
+        <label for="correo">Correo Electronico:</label>
+        <input type="email" name="correo" id="correo" required>
+        <br><br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" name="edad" id="edad" required>
+        <br><br>
+
+        <label for="nacimiento">Fecha de nacimiento:</label>
+        <input type="date" name="nacimiento" id="nacimiento" required>
+        <br><br>
+
+        <label for="carrera">Carrera universitaria:</label>
+        <select name="carrera" id="carrera">
+            <option valude="Turismo">Turismo</option>
+            <option valude="Administracion">Administración</option>
+            <option valude="Tecnologias">Tecnologías</option>
+            <option valude="Negocios">Negocios Internacionales</option>
+            <option valude="Contabilidad">Contabilidad</option>
+        </select>
+        <br><br>
+
+        <label>Turno de asistencia</label><br>
+        <input type="radio" name="turno" id="turno" value="Mañana">Matutino<br>
+        <input type="radio" name="turno" id="turno" value="Tarde">Vespertino<br>
+        <br><br>
+
+        <input type="checkbox" id="acepto" name="terminos">
+        <label for="acepto">Acepto los términos y condiciones</label>
+        <br><br>
+        
+        <input type="submit" value="Limpiar formulario">
+        <input type="submit" value="Enviar">
+
+        
+
+    </form>
+</body>
+</html>
